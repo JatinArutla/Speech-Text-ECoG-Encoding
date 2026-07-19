@@ -1,0 +1,9 @@
+model,feature,shared R²,feature R² after controls
+Whisper L32,mel,0.00832,0.010047
+Whisper L32,gbfb,0.00716,0.008821
+Whisper L32,phonetic,0.000784,0.000756
+Whisper L32,syntactic,0.002368,0.002342
+Qwen L28,mel,0.001828,0.010047
+Qwen L28,gbfb,0.001538,0.008821
+Qwen L28,phonetic,0.000655,0.000756
+Qwen L28,syntactic,0.00223,0.002342

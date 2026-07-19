@@ -1,0 +1,32 @@
+{
+  "whisper_layers": [
+    0,
+    8,
+    16,
+    24,
+    32
+  ],
+  "qwen_layers": [
+    0,
+    7,
+    14,
+    21,
+    28
+  ],
+  "overlap_statistic": "mean absolute shared held-out R2",
+  "overlap_controls": [
+    "speech_probability",
+    "word_count_0.5s",
+    "phoneme_count_0.5s",
+    "time_since_word_offset_clipped_0.5s"
+  ],
+  "speech_presence": "EfficientAT mn20_as, 0.5 s window",
+  "semantic_features": "not included",
+  "final_layer_comparison": "Whisper L32 versus Qwen L28",
+  "engine": {
+    "outer_folds": 5,
+    "inner_folds": 4,
+    "pca_variance": 0.95,
+    "n_iter": 20
+  }
+}
